@@ -276,7 +276,7 @@ class TomeRater():
 
     def recommend_book(self):
         # Will recommend the highest rated book a user hasn't read.
-        for user in self.users.values():  Iterates through all users
+        for user in self.users.values():  # Iterates through all users
             recommended_book=None 
             recommended_rating=-1 # Sets starting conditions that will be beaten if books exists
             for book in self.books: # Iterates through all books
